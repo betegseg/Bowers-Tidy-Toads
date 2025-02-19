@@ -1,0 +1,112 @@
+/* Resetting Defaults */
+html, body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #8fd48a;
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Padding */
+.padding20{
+  padding: 20px;
+}
+
+/* Margins */
+
+/* Fonts */
+.cinzel-regular {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.size16{font-size: 16px;}
+.size24{font-size: 24px;}
+.size32{font-size: 32px;}
+.size64{font-size: 64px;}
+.em1{font-size: 1em;}
+.em2{font-size: 2em;}
+.em3{font-size: 3em;}
+.em4{font-size: 4em;}
+/* Visual Styling*/
+.anchored {position: top; z-index: 10;}
+.imageFull{
+  display: block;
+  width: 65%;
+  margin: 0 auto 0 auto;
+}
+.blkbox{background-color: black;
+width: 100%;
+}
+.shadow {
+  box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.25);
+}
+.navItem {
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 20px;
+  margin: auto;
+}
+.navItem:hover{
+  color: green;
+}
+.bgrnd {
+  z-index: -1;
+}
+.fore {
+  z-index: 10;
+}
+/* Flexbox Styling */
+/* FContainers */
+.flex{
+  display: flex;
+  justify-content: space-evenly;
+}
+.fifty{
+  width: 50%;
+}
+#nav {
+  position:sticky;
+  top: 0;
+  height: 64px;
+  align-items: center;
+  background-color: #75c761;
+  margin-bottom: 10px;
+}
+#nav.affix {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index:10;
+}
+#content-wrapper{
+  background-color: #8fd48a;
+  padding: 20px;
+}
+
+#content{
+  background-color: #f0fdde;
+  padding: 20px;
+}
+
+.border {
+  border: solid 1px red;
+}
+
+.centerText{
+  text-align: center;
+}
+
+.lockAspect{
+  height: auto;
+}
+
+
+ul li{
+  padding: 20px;
+  font-size: 2em;
+}
